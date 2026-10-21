@@ -1,0 +1,28 @@
+# Dados brutos (baixados pelos scripts em ingest/) — NÃO versionar
+dados/bcrseq_raw/
+dados/ms_raw/
+dados/ms_pep/
+*.raw
+*.sra
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.mzML
+*.mzid
+
+# Saídas geradas pela POC/integração
+poc_insilico/ms_sim/
+poc_insilico/poc_resultado.json
+docs/integ_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# SO / editores
+.DS_Store
+Thumbs.db
+*.tmp

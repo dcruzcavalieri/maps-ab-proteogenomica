@@ -1,0 +1,6 @@
+# Dependências Python deste repositório
+pandas>=1.5
+
+# Dependência externa (NÃO instalável via pip aqui): o pacote `maps_ab` do fork
+# MAPS-ab-adaptado. Aponte com a variável de ambiente MAPS_AB ou como pasta irmã.
+# O fork, por sua vez, requer: biopython, numpy, scipy, pyyaml.
